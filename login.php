@@ -51,6 +51,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       <div class="container my-4">
         <h1 class="text-center">LogIn</h1>
 
+        <div class="d-flex justify-content-center align-items-center">
+    <div class="riti-container container bg-light p-4" style="width: 60%;">
         <form action="/Login-Registration-Form/login.php" method="post">
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
@@ -63,7 +65,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <button type="submit" class="btn btn-primary">SingUp</button>
         </form>
-
+        </div>
+    </div>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

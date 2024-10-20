@@ -1,2 +1,2 @@
 # Login-Registration-Form
-This is our login & and resistration form
+This is our LogIn & and SignUp form
