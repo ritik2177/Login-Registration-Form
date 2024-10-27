@@ -31,7 +31,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>LogIn</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-black">
       <?php require 'partials/_nav.php' ?>
 
       <?php 
@@ -49,10 +49,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       }
       ?>
       <div class="container my-4">
-        <h1 class="text-center">LogIn</h1>
+        <h1 class="text-center text-light">LogIn</h1>
 
         <div class="d-flex justify-content-center align-items-center">
-    <div class="riti-container container bg-light p-4" style="width: 60%;">
+    <div class="riti-container container bg-light p-4 rounded-2 border border-primary-subtle bg-light" style="width: 60%;">
         <form action="/Login-Registration-Form/login.php" method="post">
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>

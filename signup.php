@@ -45,7 +45,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>SignUp</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-black">
       <?php require 'partials/_nav.php' ?>
 
       <?php 
@@ -62,7 +62,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>';
       }
       ?>
-      <div class="container my-4">
+      <div class="container my-4 text-white border border-primary-subtle p-4 rounded-2">
         <h1 class="text-center">SignUp to our website</h1>
 
         <form action="/Login-Registration-Form/signup.php" method="post">
@@ -91,7 +91,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <label for="cpassword" class="form-label">Confirm passowrd</label>
                 <input type="password" class="form-control" id="cpassword" name="cpassword">
             </div>
-            <div id="emailHelp" class="form-text">Make sure to type the same password.</div>            
+            <div id="emailHelp" class="">Make sure to type the same password.</div>            
             <button type="submit" class="btn btn-primary">SingUp</button>
         </form>
 
