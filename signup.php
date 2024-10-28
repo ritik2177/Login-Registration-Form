@@ -63,7 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       }
       ?>
       <div class="container my-4 text-white border border-primary-subtle p-4 rounded-2 w-50 p-3 border-3">
-        <h1 class="text-center">SignUp to our website</h1>
+        <h1 class="text-center">SignUp</h1>
 
         <form action="/Login-Registration-Form/signup.php" method="post">
             <div class="mb-3">

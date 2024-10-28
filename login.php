@@ -48,11 +48,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>';
       }
       ?>
-      <div class="container  position-absolute top-50 start-50 translate-middle w-50 p-3 border-3 border border-primary">
+      <div class="container  position-absolute top-50 start-50 translate-middle w-50 p-3">
         <h1 class="text-center text-light ">LogIn</h1>
 
         <div class="d-flex justify-content-center align-items-center">
-    <div class="riti-container container bg-light p-4 rounded-2 border border-primary-subtle bg-light" style="width: 60%;">
+    <div class="riti-container container bg-light p-4 rounded-2 border-5 border border-primary bg-light" style="width: 60%;">
         <form action="/Login-Registration-Form/login.php" method="post">
             <div class="mb-3">
                 <label for="username" class="form-label">Username</label>
@@ -62,8 +62,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" id="password" name="password">
-            </div>
-            <button type="submit" class="btn btn-primary">SingUp</button>
+            </div class="" >
+            <button type="submit" class=" btn btn-primary">SingIn</button>
         </form>
         </div>
     </div>
