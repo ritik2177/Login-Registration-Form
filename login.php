@@ -48,8 +48,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>';
       }
       ?>
-      <div class="container my-4">
-        <h1 class="text-center text-light">LogIn</h1>
+      <div class="container  position-absolute top-50 start-50 translate-middle w-50 p-3 border-3 border border-primary">
+        <h1 class="text-center text-light ">LogIn</h1>
 
         <div class="d-flex justify-content-center align-items-center">
     <div class="riti-container container bg-light p-4 rounded-2 border border-primary-subtle bg-light" style="width: 60%;">
